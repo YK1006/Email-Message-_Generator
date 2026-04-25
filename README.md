@@ -1,13 +1,18 @@
-**AI Email / Message Generator**
+**AI Email / Message Generator:**
+
 Overview
+
 An AI-powered web application that transforms minimal user input into professional, structured, and ready-to-send emails. 
-The system leverages Large Language Model (LLM) APIs to generate high-quality communication for real-world scenarios such as internship applications, follow-ups, and formal requests.
+The system leverages Large Language Model (LLM) APIs to generate high-quality communication 
+for real-world scenarios such as internship applications, follow-ups, and formal requests.
+
 Key Features
 • Generate emails for multiple use cases (internship requests, leave applications, follow-ups, apology messages, meeting requests)
 • AI-powered dynamic content generation using LLM APIs
 • Clean, minimal, and user-friendly interface
 • Secure backend for handling API requests and protecting keys
 • Copy-ready output for instant usability
+
 Tech Stack
 Frontend:
 • React (Vite)
@@ -65,18 +70,24 @@ Context: Looking for an AI internship, skilled in React and Node.js
 
 Output:
 A professionally structured email including subject line, proper tone, and clear messaging.
-Use Cases
+
+**Use Cases**
 • Students applying for internships and jobs
 • Professionals drafting formal communication
 • Quick email generation for daily productivity
-Future Enhancements
+
+**Future Enhancements**
 • Tone customization (formal, casual, persuasive)
 • Multi-language support
 • Save and export functionality
 • Email templates library
 • Personalization (name, company, role)
-Author
-Your Name
+
+
+**Author**
+Yedhukrishna Vijayan
 GitHub: https://github.com/your-username
+
+
 License
 This project is licensed under the MIT License.
