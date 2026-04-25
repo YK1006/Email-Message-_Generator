@@ -1,33 +1,35 @@
 **AI Email / Message Generator:**
 
-Overview
+**Overview:**
 
 An AI-powered web application that transforms minimal user input into professional, structured, and ready-to-send emails. 
 The system leverages Large Language Model (LLM) APIs to generate high-quality communication 
 for real-world scenarios such as internship applications, follow-ups, and formal requests.
 
-Key Features
+**Key Features:**
 • Generate emails for multiple use cases (internship requests, leave applications, follow-ups, apology messages, meeting requests)
 • AI-powered dynamic content generation using LLM APIs
 • Clean, minimal, and user-friendly interface
 • Secure backend for handling API requests and protecting keys
 • Copy-ready output for instant usability
 
-Tech Stack
-Frontend:
+**Tech Stack**
+
+**Frontend:**
 • React (Vite)
 • Tailwind CSS
 
-Backend:
+**Backend:**
 • Node.js
 • Express.js
 
-AI Integration:
+**AI Integration:**
 • OpenAI API / Google Gemini API
 
-Deployment:
+**Deployment:**
 • Vercel
-Architecture
+
+**Architecture:**
 The application follows a simple and scalable architecture:
 
 Frontend (React UI)
@@ -39,9 +41,10 @@ LLM API (OpenAI / Gemini)
 Generated Email Response
 
 The backend handles prompt construction and API communication, ensuring security and flexibility.
-Installation & Setup
+
+**Installation & Setup**
 1. Clone the repository
-   git clone https://github.com/your-username/ai-email-generator.git
+   git clone: https://github.com/YK1006/Email-Message-_Generator.git
 
 2. Backend Setup
    cd backend
@@ -57,12 +60,14 @@ Installation & Setup
    cd frontend
    npm install
    npm run dev
+
 How It Works
 1. User selects a message type and provides context
 2. Frontend sends request to backend API
 3. Backend constructs a structured prompt
 4. LLM API processes the prompt and generates an email
 5. Response is sent back and displayed to the user
+
 Example
 Input:
 Type: Internship Request
@@ -86,8 +91,8 @@ A professionally structured email including subject line, proper tone, and clear
 
 **Author**
 Yedhukrishna Vijayan
-GitHub: https://github.com/your-username
+GitHub: https://github.com/YK1006
+Live: https://email-message-generator-1zsg-j0rh19y89.vercel.app
 
-
-License
+**License**
 This project is licensed under the MIT License.
